@@ -53,7 +53,7 @@ Indoor air quality affects health, comfort, and productivity. People cannot dete
 - GND → GND
 - A0 → A0 (Analog pin)
 
-![Circuit Diagram](circuit/circuit_diagram.png)
+![Circuit Diagram](circuit/circuit.png)
 
 ## 🚀 Installation
 
@@ -135,7 +135,7 @@ char pass[] = "YOUR_WIFI_PASSWORD";
 - Humidity percentage
 - Air Quality Index (AQI)
 
-![Blynk Dashboard](images/blynk_dashboard.png)
+![Blynk Dashboard](images/blynkdashboard.png)
 
 ## 🔮 Future Scope
 
