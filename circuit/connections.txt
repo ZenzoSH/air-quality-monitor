@@ -1,0 +1,9 @@
+**DHT11 Sensor:**
+- VCC → 3.3V (NodeMCU)
+- GND → GND
+- DATA → D4 (GPIO2)
+
+**MQ135 Sensor:**
+- VCC → 3.3V
+- GND → GND
+- A0 → A0 (Analog pin)

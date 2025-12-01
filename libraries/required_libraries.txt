@@ -1,0 +1,13 @@
+Required Arduino Libraries:
+===========================
+
+1. ESP8266WiFi (Built-in with ESP8266 board package)
+2. BlynkSimpleEsp8266 (Install via Library Manager)
+3. DHT sensor library by Adafruit (v1.4.x or higher)
+4. Adafruit Unified Sensor (v1.1.x or higher)
+
+Installation Instructions:
+1. Open Arduino IDE
+2. Go to Sketch → Include Library → Manage Libraries
+3. Search for each library by name
+4. Click "Install"
