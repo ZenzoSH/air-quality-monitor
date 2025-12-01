@@ -155,72 +155,13 @@ char pass[] = "YOUR_WIFI_PASSWORD";
 - Indoor pollution detection
 - Health and wellness tracking
 
-## 👥 Contributors
-
-**Group 3 - CSE(AI) - D**
-
-- Shivendra Bhardwaj
-- Shivansh Chaudhary
-- Shivansh Mishra
-- Shiv Kumar
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## 🙏 Acknowledgments
 
 - OpenWeather API for weather data references
 - Blynk IoT platform for mobile app integration
 - Arduino community for libraries and support
 
-## 📞 Contact
 
-For questions or suggestions, please open an issue on GitHub.
-
----
-
-⭐ **If you found this project helpful, please give it a star!**
-```
-
-### **C. .gitignore File**
-```
-# Arduino
-*.ino~
-*.hex
-*.elf
-*.eep
-*.lss
-*.map
-*.sym
-
-# IDE
-.vscode/
-.idea/
-*.sublime-*
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Credentials (IMPORTANT!)
-config.h
-credentials.txt
-```
-
-### **D. LICENSE File**
-
-Choose MIT License (most common for open-source):
-```
-MIT License
-
-Copyright (c) 2024 [Your Names]
-
-Permission is hereby granted, free of charge, to any person obtaining a copy...
-```
-
-### **E. Connection Details (`circuit/connections.txt`)**
-```
 ESP8266 NodeMCU Pin Connections
 ================================
 
