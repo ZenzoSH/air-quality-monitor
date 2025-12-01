@@ -182,10 +182,8 @@ Blynk Virtual Pins:
 - V1 → Temperature
 - V2 → Humidity
 - V3 → Air Quality Index
-```
 
-### **F. Required Libraries (`libraries/required_libraries.txt`)**
-```
+
 Required Arduino Libraries:
 ===========================
 
