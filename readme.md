@@ -5,15 +5,16 @@
 An IoT-based Air Quality Monitoring System using ESP8266 NodeMCU that measures temperature, humidity, and air quality in real-time and displays data on the Blynk mobile app.
 
 ## 📋 Table of Contents
-- [Problem Statement](#problem-statement)
-- [Features](#features)
-- [Components Required](#components-required)
-- [Circuit Diagram](#circuit-diagram)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Results](#results)
-- [Future Scope](#future-scope)
-- [Contributors](#contributors)
+- [Problem Statement](#-problem-statement)
+- [Features](#-features)
+- [Components Required](#-components-required)
+- [Circuit Diagram](#-circuit-diagram)
+- [Installation](#-installation)
+- [Usage](#-usage)
+- [Results](#-results)
+- [Future Scope](#-future-scope)
+- [Applications](#-applications)
+- [Acknowledgments](#-acknowledgments)
 
 ## 🎯 Problem Statement
 
@@ -76,7 +77,7 @@ Download and install Arduino IDE for your operating system.
 2. Go to **File → Preferences**
 3. Add this URL to "Additional Board Manager URLs":
 ```
-   http://arduino.esp8266.com/stable/package_esp8266com_index.json
+http://arduino.esp8266.com/stable/package_esp8266com_index.json
 ```
 4. Go to **Tools → Board → Boards Manager**
 5. Search for "ESP8266" and install it
@@ -161,38 +162,38 @@ char pass[] = "YOUR_WIFI_PASSWORD";
 - Blynk IoT platform for mobile app integration
 - Arduino community for libraries and support
 
+---
 
-ESP8266 NodeMCU Pin Connections
-================================
+## 📌 Additional Information
 
-DHT11 Sensor:
+### ESP8266 NodeMCU Pin Connections
+
+**DHT11 Sensor:**
 - VCC → 3.3V
 - GND → GND  
 - DATA → D4 (GPIO2)
 
-MQ135 Sensor:
+**MQ135 Sensor:**
 - VCC → 3.3V (or 5V if available)
 - GND → GND
 - A0 → A0 (Analog Input)
 
-Power:
+**Power:**
 - USB Cable to NodeMCU for power and programming
 
-Blynk Virtual Pins:
+**Blynk Virtual Pins:**
 - V1 → Temperature
 - V2 → Humidity
 - V3 → Air Quality Index
 
-
-Required Arduino Libraries:
-===========================
+### Required Arduino Libraries
 
 1. ESP8266WiFi (Built-in with ESP8266 board package)
 2. BlynkSimpleEsp8266 (Install via Library Manager)
 3. DHT sensor library by Adafruit (v1.4.x or higher)
 4. Adafruit Unified Sensor (v1.1.x or higher)
 
-Installation Instructions:
+**Installation Instructions:**
 1. Open Arduino IDE
 2. Go to Sketch → Include Library → Manage Libraries
 3. Search for each library by name
