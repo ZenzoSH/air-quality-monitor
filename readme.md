@@ -12,7 +12,7 @@ An IoT-based Air Quality Monitoring System using ESP8266 NodeMCU that measures t
 - [Installation](#-installation)
 - [Usage](#-usage)
 - [Results](#-results)
-- [Common Issues & Troubleshooting](#-common-issues--troubleshooting)
+- [Common Issues & Troubleshooting](#️-common-issues--troubleshooting)
 - [Future Scope](#-future-scope)
 - [Applications](#-applications)
 - [Acknowledgments](#-acknowledgments)
